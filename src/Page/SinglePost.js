@@ -4,17 +4,14 @@ import useFetch from '../Components/useFetch';
 
 const SinglePost = () => {
     const { id } = useParams()
-    const {data: posts, error, isPending} = useFetch('posts.json')
-
-    var post = posts.filter(function (posts) {
-        console.log(id, posts.id);
-        return posts.id === id;
-    });
+    const { data: post, error, isPending } = useFetch('/post-1.json')
 
     return (
-        <>
-            { post && <PostCard post={post}/> }
-        </>
+        <main className="max-w-6xl mx-auto mt-6 lg:mt-20 space-y-6">
+            {isPending && <div>Loading...</div>}
+            {error && <div>{error}</div>}
+            {post && <PostCard post={post} />}
+        </main>
     );
 }
 

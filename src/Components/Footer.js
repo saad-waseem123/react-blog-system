@@ -1,7 +1,7 @@
 const Footet = () => {
     return (
         <footer className="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center py-16 px-10 mt-16">
-            <img src="./images/lary-newsletter-icon.svg" alt className="mx-auto -mb-6" style={{ width: 145 }} />
+            <img src="/images/lary-newsletter-icon.svg" alt="no alt" className="mx-auto -mb-6" style={{ width: 145 }} />
             <h5 className="text-3xl">Stay in touch with the latest posts</h5>
             <p className="text-sm mt-3">Promise to keep the inbox clean. No bugs.</p>
             <div className="mt-10">
@@ -9,7 +9,7 @@ const Footet = () => {
                     <form method="POST" action="#" className="lg:flex text-sm">
                         <div className="lg:py-3 lg:px-5 flex items-center">
                             <label htmlFor="email" className="hidden lg:inline-block">
-                                <img src="./images/mailbox-icon.svg" alt="mailbox letter" />
+                                <img src="/images/mailbox-icon.svg" alt="mailbox letter" />
                             </label>
                             <input id="email" type="text" placeholder="Your email address" className="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none" />
                         </div>

@@ -1,0 +1,25 @@
+{
+  "id": 3,
+  "postTitle": "eu cupidatat culpa cillum voluptate",
+  "body": "Quis consequat nostrud sunt cillum eiusmod labore dolor. Fugiat exercitation dolor voluptate ut officia cupidatat ullamco duis commodo deserunt ad quis. Ut anim deserunt sit culpa ut magna. Proident ipsum in deserunt sunt anim consectetur id nostrud ex aute nostrud deserunt. Sunt reprehenderit ullamco excepteur incididunt voluptate velit dolore. Officia ut excepteur in ipsum velit.\r\nConsectetur laborum culpa excepteur in adipisicing veniam consequat. Fugiat tempor culpa reprehenderit enim est proident aliqua non dolor. Culpa exercitation irure eu nulla voluptate sunt in. Veniam incididunt aliqua ullamco ipsum consectetur in ipsum mollit laboris tempor laboris eiusmod labore. Mollit irure cillum reprehenderit aliqua sit aliquip velit.\r\n",
+  "picture": "http://localhost:3000/images/illustration-1.png",
+  "tags": [
+    "labore",
+    "reprehenderit",
+    "sint",
+    "amet",
+    "eu",
+    "excepteur",
+    "pariatur"
+  ],
+  "author": {
+    "id": 1,
+    "name": "Whitney Manning"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "enim"
+    }
+  ]
+}

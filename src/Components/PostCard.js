@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const PostCard = ({post}) => {
     return (
         <article className="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
@@ -31,16 +33,16 @@ const PostCard = ({post}) => {
                     </div>
                     <footer className="flex justify-between items-center mt-8">
                         <div className="flex items-center text-sm">
-                            <img src="./images/lary-avatar.svg" alt="Lary avatar" />
+                            <img src="/images/lary-avatar.svg" alt="Lary avatar" />
                             <div className="ml-3">
                                 <h5 className="font-bold">{post.author.name}</h5>
                                 <h6>Mascot at Laracasts</h6>
                             </div>
                         </div>
                         <div>
-                            <a href={post.id} className="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">
-                                Read More
-                            </a>
+                            <Link to={"/post/"+post.id}> 
+                                <span className="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">Read More</span>
+                            </Link>
                         </div>
                     </footer>
                 </div>
